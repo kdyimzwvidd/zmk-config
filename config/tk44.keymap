@@ -8,18 +8,18 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define BASE 0
-#define DIG 1
-#define NAV 2
+#define DEF 0
+#define LWR 1
+#define RSE 2
 #define ADJ 3
 
-&lt {
-    quick_tap_ms = <200>;
-};
+#define DEF 0
+#define LWR 1
+#define RSE 2
+#define ADJ 3
 
-&mt {
-    quick_tap_ms = <200>;
-};
+&lt { quick_tap_ms = <200>; };
+&mt { quick_tap_ms = <200>; };
 
 / {
         keymap {
